@@ -1,0 +1,154 @@
+  .containerP{
+    padding: 0 !important
+  }
+  
+  
+  .candidateList {
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* border-bottom: 1px solid #eeeeee; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .candidateList:hover {
+      -webkit-box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+              box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+      position: relative;
+      z-index: 99; }
+      .candidateList:hover a.candidateListFavourite {
+        color: #e74c3c;
+        -webkit-box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+                box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1); }
+  
+  .candidateList .candidateListImage {
+    margin-right: 25px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80px;
+            flex: 0 0 80px;
+    border: none; }
+    .candidateList .candidateListImage img {
+      width: 80px;
+      height: 80px;
+      -o-object-fit: cover;
+         object-fit: cover; }
+
+  
+  .candidateListTitle {
+    margin-bottom: 5px; }
+
+    .candidateListTitle a {
+      text-decoration: none;
+      color: #212121 !important;
+      font: 600 1rem "Montserrat", sans-serif !important;
+    }
+  
+  .candidateListDetails ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0px; }
+    .candidateListDetails ul li {
+      margin: 5px 10px 5px 0px;
+      font-size: 13px; }
+  
+  .candidateList .candidateListFavouriteTime {
+    margin-left: auto;
+    /* text-align: center; */
+    font-size: 13px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 90px;
+            flex: 0 0 90px; }
+    .candidateList .candidateListFavouriteTime span {
+      display: block;
+      margin: 0 auto; }
+    .candidateList .candidateListFavouriteTime .candidateList-favourite {
+      display: inline-block;
+      position: relative;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      /* border: 1px solid #eeeeee; */
+      border-radius: 100%;
+      text-align: center;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #646f79;
+      }
+      .candidateList .candidateListFavouriteTime .candidateListFavourite:hover {
+        background: #ffffff;
+        color: #e74c3c; }
+  
+  .candidateBanner .candidateList:hover {
+    position: inherit;
+    -webkit-box-shadow: inherit;
+            box-shadow: inherit;
+    z-index: inherit; }
+  
+  
+  /* Candidate Grid */
+  .candidateList.candidateGrid {
+      padding: 0px;
+      display: block;
+      border-bottom: none;
+  }
+  
+  .candidateGrid .candidateListImage {
+      text-align: center;
+      margin-right: 0px;
+  }
+  .candidateGrid .candidateListImage img {
+      height: 300px;
+      width: 100%;
+  }
+  
+  .candidateGrid .candidateListDetails {
+      /* text-align: center; */
+      padding: 20px 20px 0px 20px;
+      /* border: 1px solid #eeeeee; */
+      border-top: none;
+  }
+  .candidateGrid .candidateListDetails ul {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      /* justify-content: center; */
+  }
+  
+  .candidateGrid .candidateListFavouriteTime {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      /* border-top: 1px solid #eeeeee */
+      margin-top: 10px;
+      padding: 5px 0;
+  }
+  .candidateGrid .candidateListFavouriteTime a {
+      text-decoration: none;
+      margin-bottom: 0;
+      margin-left: auto;
+      color: #212121;
+  }
+  .candidateGrid .candidateListFavouriteTime span {
+      display: inline-block;
+      margin: 0;
+      -ms-flex-item-align: center;
+      align-self: center;
+  }
+  
+  .candidateList.candidateGrid .candidateListFavouriteTime .candidateListFavourite {
+      margin-bottom: 0px;
+  }
+  
+  .candidateList.candidateGrid {
+      margin-bottom: 20px;
+  }
+  
+ 

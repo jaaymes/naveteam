@@ -1,0 +1,199 @@
+.cardSignin {
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.cardSignin .cardTitle {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.cardSignin .cardBody {
+  padding: 2rem;
+}
+
+.formSignin {
+  width: 100%;
+}
+
+.btn{
+  background-color: #212121;
+}
+
+.formSignin .btn {
+  font-size: 80%;
+  border-radius: 0.2rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.formLabelGroup {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.formLabelGroup input {
+  height: auto;
+  border-radius: 0.2rem;
+}
+
+.formLabelGroup >input,
+.formLabelGroup >label {
+  padding: .75rem 1.5rem;
+}
+
+.formLabelGroup > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.formLabelGroup input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.formLabelGroup input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.formLabelGroup input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.formLabelGroup input::-moz-placeholder {
+  color: transparent;
+}
+
+.formLabelGroup input::placeholder {
+  color: transparent;
+}
+
+.formLabelGroup input:not(:placeholder-shown) {
+  padding-top: calc(0.75rem + 1.5rem * (2 / 3));
+  padding-bottom: calc(0.75rem / 3);
+}
+
+.formLabelGroup input:not(:placeholder-shown)~label {
+  padding-top: calc(0.75rem / 3);
+  padding-bottom: calc(0.75rem / 3);
+  font-size: 14px;
+  color: #777;
+}
+
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+
+/* .container{
+  border: 1px solid #212121 !important;
+  height: 28.5rem;
+  margin: 2.75rem auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.container span img{
+  width: 6rem;
+}
+
+.container span{
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 800;
+}
+
+@media (max-width: 520px) {
+  .container{
+    margin-right: 32px;
+  }  
+}
+
+.container form div label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  color: #212121;
+}
+
+
+.container form div input {
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 1);
+  width: 24rem;
+  height: 2.5rem;
+  padding: 5px 10px;
+  margin: auto;
+  border-width: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.container form div input:focus:active {
+  border-color: darkgrey;
+  outline: darkgrey;
+}
+
+
+.loginButton {
+  width: 24rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 2px;
+  background: rgba(33, 33, 33, 1);
+  color: rgba(255, 255, 255, 1);
+  font: 600 1rem "Montserrat";
+  font-size: 0.88rem;
+  line-height: 24px;
+} */

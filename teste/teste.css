@@ -1,0 +1,71 @@
+.container {
+  position: absolute;
+  width: 28rem;
+  height: 25.5rem;
+  margin: 9.75rem auto;
+  border: 1px solid #212121;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 90%;
+    max-width: 960px;
+  }
+}
+
+.container span {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.container span > img {
+  width: 4rem;
+}
+
+.userLoginFormControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.63px;
+}
+
+.userLoginFormControl label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+  margin-left: 2rem;
+
+  display: flex;
+  align-items: center;
+  color: #212121;
+}
+
+.userLoginFormControl input {
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 1);
+  width: 24rem;
+  height: 2.5rem;
+  padding: 5px 10px;
+  margin: auto;
+  border-width: 0.1rem;
+}
+
+.loginButton {
+  width: 24rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 2px;
+  background: rgba(33, 33, 33, 1);
+  color: rgba(255, 255, 255, 1);
+  font: 600 1rem "Montserrat";
+  font-size: 0.88rem;
+  line-height: 24px;
+}
